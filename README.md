@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in accessing HTML elements. The `bug.html` file contains an error where `getElement()` is used to select an element. The correct function to use is `getElementById()`. The `bugSolution.html` shows the correct way to select the element using `getElementById()`.  This is a common mistake for those new to JavaScript and DOM manipulation.
